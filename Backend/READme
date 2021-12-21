@@ -1,1 +1,6 @@
+Backend files
+1)check.js include the business logic for third party integration with hubspot api
+2)conn.js include the code for mongodb databse connection and schema architecture
+3)To get accessToken and Refresh token use client Id and Client secret key from hubspot
+
 
