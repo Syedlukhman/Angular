@@ -1,0 +1,12 @@
+button{
+    float: left;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+}
+div{
+   
+    margin-top: 20px;
+    
+}

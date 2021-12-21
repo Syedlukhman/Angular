@@ -1,0 +1,74 @@
+button,h4{
+    float: left;
+    font-size: large;
+}
+.disconnect{
+
+    background-color: rgb(243, 85, 85);
+    
+    
+}
+h4{
+   margin-bottom: 3%;
+    margin-left: 20%;
+   color: black;
+    padding-left: 3pc ;
+    margin-top: 1%;
+    
+}
+td{
+    
+    align-items: center;
+}
+td.noBorder{
+    border: 0;
+}
+table,td,th
+{
+    border:  1px solid black;
+    border-collapse: collapse;
+    
+    text-align: center;
+}
+table{
+    width: 90%;
+}
+th{
+    font-size: larger;
+    padding: 0.5pc;
+    background-color: rgb(139, 139, 139);
+}
+td{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 40%;
+}
+td.buttons{
+    width: 20%;
+}
+
+th{
+    font-size: large;
+}
+button{
+    background-color: cornflowerblue;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding: 0.5pc;
+    padding-left: 2pc;
+    padding-right: 2pc;
+}
+.tableDiv{
+    clear: left;
+    
+}
+
+button.create{
+    background-color: cornflowerblue;
+    margin-left: 0%;
+    border-radius: 5px;
+    margin-top:10px ;
+    padding-left:20px;
+    padding-right: 15px;
+    width: 10%;
+}

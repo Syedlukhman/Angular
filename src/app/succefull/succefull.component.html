@@ -1,0 +1,30 @@
+<div>
+    <h4>{{Text}}</h4>
+    <div>
+        <button class="disconnect" (click)="disconnect()"  >Disconnect</button>
+    </div>
+</div>
+
+<div *ngIf="hide" class="tableDiv">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th class="Actions" colspan="1">Actions</th>
+        </tr>
+
+        <tr *ngFor="let item of Data">
+            <td class="name">{{item.firstName +" " + item.lastName}}</td>
+            <td class="email">{{item.email}}</td>
+            <td class="buttons">
+                <button (click)="check()" [disabled]="enable" routerLink='edit/{{item.email}}'>Edit</button>
+                <button (click)='delete(item)'>Delete</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<div *ngIf="hide">
+    <button class="create" routerLink='create'>Create</button>
+</div>
+
+<router-outlet></router-outlet>
