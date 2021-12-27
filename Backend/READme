@@ -1,6 +1,10 @@
-Backend files
-1)check.js include the business logic for third party integration with hubspot api
-2)conn.js include the code for mongodb databse connection and schema architecture
-3)To get accessToken and Refresh token use client Id and Client secret key from hubspot
+## Step by step instructions to run backend server
+
+Save check,js,app.js ad=nd .env file
+Download the dependencies mentioned in package.json() by running the command `npm i package-name`
+
+## To get server started
+
+Run `npm test` to get the server started
 
 
