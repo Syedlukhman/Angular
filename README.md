@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/` with proxy setting yo navigate every api call to server side. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Express.js files
+
+Find and save the node.js files in the folder Backend
+
+## Sever side development 
+
+Run command `npm test` to run the server on 'localhost://3000'. The files will automatically reload if any chages are made.
+
