@@ -33,5 +33,5 @@ Find and save the node.js files in the folder Backend
 
 ## Sever side development 
 
-Run command `npm test` to run the server on 'localhost://3000'. The files will automatically reload if any chages are made.
+Run command `npm test` to run the server on `localhost://3000`. The files will automatically reload if any chages are made.
 
